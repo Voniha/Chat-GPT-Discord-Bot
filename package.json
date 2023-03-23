@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/app.js\"",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.4",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.21",
+    "typescript": "^5.0.2"
+  }
+}

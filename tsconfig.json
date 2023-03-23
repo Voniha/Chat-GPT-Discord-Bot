@@ -1,0 +1,15 @@
+{
+  // ne diraj ovo, fuj to
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "outDir": "dist",
+    "checkJs": true,
+    "removeComments": true,
+    "strict": true,
+    "inlineSourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true
+  },
+  "include": ["./src"]
+}
