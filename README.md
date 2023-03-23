@@ -5,3 +5,5 @@ This is a Chat-GPT Discord bot made in TypeScript!
 2. Build TypeScript code with yarn: "yarn build".
 3. Fill variables in .env file.
 4. Start the bot with: "yarn start".
+
+If you have any questions, contact me on: 𝕍𝕠𝕟𝕚𝕙𝕒#2302.
