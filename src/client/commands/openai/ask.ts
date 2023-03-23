@@ -35,6 +35,7 @@ export default class AskCommand extends Command implements ICommand {
     let question = interaction.options.get("question")?.value;
     let result = await interaction.client.utils.api.getAnswer(
       interaction,
+      undefined,
       question
     );
     let choices = result.data.choices.map((choice: any, index: Number) => {
@@ -52,6 +53,7 @@ export default class AskCommand extends Command implements ICommand {
     if (!answer) {
       let result = await interaction.client.utils.api.getAnswer(
         interaction,
+        undefined,
         question
       );
       await interaction.editReply({
